@@ -3,7 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Microsoft Azure Cloud Architecture](Images/Project 1/Cloud-Architecture.PNG)
+![Microsoft Azure Cloud Architecture](ELK-Stack-Project_1/Images/Project 1/Cloud-Architecture.PNG)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YMLfile may be used to install only certain pieces of it, such as Filebeat.
 
