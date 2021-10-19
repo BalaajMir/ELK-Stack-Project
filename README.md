@@ -123,13 +123,13 @@ Answer the following questions to fill in the blanks:_
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
-ssh sysadmin@JumpBox(PrivateIP 13.68.135.196)
-sudo docker container list -a (locate your ansible container)
-sudo docker start container (name of the container)
-sudo docker attach container (name of the container)
-cd /etc/ansible/
-ansible-playbook Install_elk_playbook.yml (configures Elk-Server and starts the Elk container on the Elk-Server)
-cd /etc/ansible/roles/
-ansible-playbook Install_filebeat-playbook.yml (installs Filebeat and Metricbeat)
-ansible-playbook Install_metricbeat-playbook.yml
-open a new web browser session and navigate to (Elk-Server 104.208.153.229:5601) This will bring up the Kibana Web Portal
+-ssh sysadmin@JumpBox(PrivateIP 13.68.135.196)
+-sudo docker container list -a (locate your ansible container)
+-sudo docker start container (name of the container)
+-sudo docker attach container (name of the container)
+-cd /etc/ansible/
+-ansible-playbook Install_elk_playbook.yml (configures Elk-Server and starts the Elk container on the Elk-Server)
+-cd /etc/ansible/roles/
+-ansible-playbook Install_filebeat-playbook.yml (installs Filebeat and Metricbeat)
+-ansible-playbook Install_metricbeat-playbook.yml
+-open a new web browser session and navigate to (Elk-Server 104.208.153.229:5601) This will bring up the Kibana Web Portal
